@@ -28,14 +28,6 @@ The application was written in Java, using the HashMap data structure in Java to
 
 The reason the HashMap was used in this case was because of its simplicity of key-value pairs and its relevance to the problem. The frequency list needs to have two things: words and its frequency. Therefore, it is easy to see why a HashMap would best solve the problem. However, HashMaps make no guarantee as to the order of the map. As such, a function was created to sort the values from highest to lowest using the available sort method in the Java Collections class. 
 
-Small diagram of the process:
-```mermaid
-graph LR
-A(Input File) --> B(Formats words and adds to HashMap)
-B --> C(Sorts from high-low frequency)
-C --> D(Output File)
-```
-
 The output for the file should look like:
 ```
 31: the
